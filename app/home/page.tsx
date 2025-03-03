@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 
 import { IoIosInformationCircleOutline, IoMdPlay } from 'react-icons/io'
@@ -39,40 +40,40 @@ function Home() {
         <div className=' absolute top-1/2 w-full'>
             <div className='mt-10 w-full'>
                 <h1 className='text-3xl font-bold text-white ml-5'>Today's Top Picks</h1>
-                <Carousel className=' ml-5 gap-5 w-full   p-5'>
+                <Carousel className=' gap-5 w-full   p-5'>
                     <CarouselContent className='p-4'>
                         <CarouselItem className='basis-1/6'>
-                            <div className=' relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg hover:scale-105'>
+                            <div className=' relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg hover:scale-105' onClick={ ()=>{window.location.href='/skills';}}>
                                 <Image src="/skills.avif" width={600} height={600} alt='work Experience' className='w-full h-full rounded-lg opacity-50 '></Image>
                                 <h1 className='absolute left-1/2 -translate-x-1/2 top-1/2 -tranlate-y-1/2 text-white font-bold text-lg'>Skills</h1>
                             </div>
                         </CarouselItem>
                         <CarouselItem className='basis-1/6'>
-                            <div className=' relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg align-middle hover:scale-105'>
+                            <div className=' relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg align-middle hover:scale-105' onClick={ ()=>{window.location.href='/skills';}}>
                                 <Image src="/work-experience.jpg" width={1000} height={100} alt='work Experience' className='w-full h-full rounded-lg opacity-50 '></Image>
                                 <h1 className='absolute left-1/2 -translate-x-1/2 top-1/2 -tranlate-y-1/2 text-white font-bold text-lg'>Experience</h1>
                             </div>
                         </CarouselItem>
                         <CarouselItem className='basis-1/6'>
-                            <div className='relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg hover:scale-105'>
+                            <div className='relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg hover:scale-105' onClick={ ()=>{window.location.href='/skills';}}>
                                 <Image src="/education.webp" width={1000} height={100} alt='work Experience' className='w-full h-full rounded-lg opacity-50 '></Image>
                                 <h1 className='absolute left-1/2 -translate-x-1/2 top-1/2 -tranlate-y-1/2 text-white font-bold text-lg'>Education</h1>
                             </div>
                         </CarouselItem>
                         <CarouselItem className='basis-1/6'>
-                            <div className='relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg hover:scale-105'>
+                            <div className='relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg hover:scale-105' onClick={ ()=>{window.location.href='/skills';}}>
                                 <Image src="/certifications.jpg" width={1000} height={100} alt='work Experience' className='w-full h-full rounded-lg opacity-50 '></Image>
                                 <h1 className='absolute left-1/2 -translate-x-1/2 top-1/2 -tranlate-y-1/2 text-white font-bold text-lg'>Certifications</h1>
                             </div>
                         </CarouselItem>
                         <CarouselItem className='basis-1/6'>
-                            <div className='relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg hover:scale-105'>
+                            <div className='relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg hover:scale-105' onClick={ ()=>{window.location.href='/skills';}}>
                                 <Image src="/projects.avif" width={1000} height={100} alt='work Experience' className='w-full h-full rounded-lg opacity-50 '></Image>
                                 <h1 className='absolute left-1/2 -translate-x-1/2 top-1/2 -tranlate-y-1/2 text-white font-bold text-lg'>Projects</h1>
                             </div>
                         </CarouselItem>
                         <CarouselItem className='basis-1/6'>
-                            <div className='relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg hover:scale-105'>
+                            <div className='relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg hover:scale-105' onClick={ ()=>{window.location.href='/skills';}}>
                                 <Image src="/contacts.webp" width={1000} height={100} alt='work Experience' className='w-full h-full rounded-lg opacity-50 '></Image>
                                 <h1 className='absolute left-1/2 -translate-x-1/2 top-1/2 -tranlate-y-1/2 text-white font-bold text-lg'>Contact Me</h1>
                             </div>
