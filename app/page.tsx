@@ -11,7 +11,7 @@ export default function Home() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    e.preventDefault(); // Prevent immediate navigation
+    e.preventDefault(); 
     
     setTimeout(() => {
       window.location.href = "/profiles"; // Manually navigate after delay
@@ -38,7 +38,7 @@ export default function Home() {
       <div className="flex flex-col  h-screen" onClick={()=>{setClicked(true)}}>
         <audio ref={audioRef} src="/netflix-sound.mp3" />
         <Image src="/logo.png" width={500} height={500} alt="Logo" className="w-fit mx-auto my-auto h-fit logo" ></Image>
-        {!clicked?<p className="mx-auto mb-5 start">Click to start</p>:<></>}
+        {!clicked?<p className="mx-auto mb-5 start text-white text-xl">Click to start</p>:<></>}
 
       </div>
     </Link>

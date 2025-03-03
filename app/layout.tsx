@@ -5,16 +5,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/NavBar";
+import AnimatedCursor from "react-animated-cursor";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 
 
@@ -28,8 +21,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={` antialiased bg-black `}
       >
+        <AnimatedCursor
+          innerSize={8}
+          outerSize={35}
+          innerScale={1}
+          outerScale={2}
+          outerAlpha={0}
+          
+          innerStyle={{
+            backgroundColor: 'rgb(204,42,26)'
+          }}
+          outerStyle={{
+            border: '3px solid rgb(204,42,26)'
+          }}
+        />
         {pathname==="/" || pathname==="/profiles" ?<></>:<NavBar></NavBar>}
         {children}
       </body>
