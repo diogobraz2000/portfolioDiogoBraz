@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import AnimatedCursor from "react-animated-cursor";
-
+import { MantineProvider } from '@mantine/core';
 
 
 
@@ -36,7 +36,9 @@ export default function RootLayout({
           }}
         />
         {pathname==="/" || pathname==="/profiles" ?<></>:<NavBar></NavBar>}
+        <MantineProvider >
         {children}
+        </MantineProvider>
       </body>
     </html>
   );

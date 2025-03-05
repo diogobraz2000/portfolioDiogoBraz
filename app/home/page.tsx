@@ -49,7 +49,7 @@ function Home() {
                             </div>
                         </CarouselItem>
                         <CarouselItem className='basis-1/6'>
-                            <div className=' relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg align-middle hover:scale-105' onClick={ ()=>{window.location.href='/skills';}}>
+                            <div className=' relative w-56 h-56 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg align-middle hover:scale-105' onClick={ ()=>{window.location.href='/professional';}}>
                                 <Image src="/work-experience.jpg" width={1000} height={100} alt='work Experience' className='w-full h-full rounded-lg opacity-50 '></Image>
                                 <h1 className='absolute left-1/2 -translate-x-1/2 top-1/2 -tranlate-y-1/2 text-white font-bold text-lg'>Experience</h1>
                             </div>
