@@ -12,7 +12,6 @@ function Home() {
     <div className='absolute my-20 w-full'>
         <Frontend></Frontend>
         <Backend></Backend>
-        
         <Databases></Databases>
         <Other></Other>
         <Cloud></Cloud>

@@ -3,6 +3,7 @@
 @plugin "tailwindcss-animate";
 
 @custom-variant dark (&:is(.dark *));
+@import 'react-vertical-timeline-component/style.min.css';
 
 @theme {
   --font-sans: var(--font-geist-sans);
