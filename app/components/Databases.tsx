@@ -28,7 +28,7 @@ function Databases() {
                 <div className=' h-48  bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 three2 opacity-0'>
                     <SiMongodb className='text-red-600 font-bold text-4xl w-fit mx-auto '></SiMongodb>
                     <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>MongoDB</h1>
-                    <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit'>NoSQL database</h2>
+                    <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>NoSQL database</h2>
                 </div>
                 
                 

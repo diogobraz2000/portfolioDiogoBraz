@@ -10,9 +10,21 @@
   --font-mono: var(--font-geist-mono);
 }
 
-body {
-  font-family: Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('/fonts/NetflixSans-Regular.otf') format('opentype'),
+       url('/fonts/NetflixSans-Medium.otf') format('opentype'),
+       url('/fonts/NetflixSans-Bold.otf') format('opentype'),
+       url('/fonts/NetflixSans-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
+body {
+  font-family: 'Netflix Sans', Helvetica, sans-serif;
+}
+
 
 :root {
   --background: oklch(1 0 0);

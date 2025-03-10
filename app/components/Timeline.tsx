@@ -2,11 +2,12 @@
 
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FaBriefcase } from "react-icons/fa";
-import { FaCarBattery, FaJs, FaLaptopMedical, FaPen, FaSailboat } from "react-icons/fa6";
+
+import { FaCarBattery, FaPen, FaSailboat } from "react-icons/fa6";
 import Image from "next/image";
 
 const Timeline: React.FC = () => {
+ 
   return (
     <div className="p-10 mt-28">
       <h2 className="text-3xl text-center font-bold mb-8 text-red-600">Professional Experience</h2>

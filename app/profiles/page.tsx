@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className='w-screen h-screen flex flex-col'>
         <div className='w-fith-fit  my-auto mx-auto'>
-            <h1 className='w-fit mx-auto text-4xl text-white'>Who's Watching?</h1>
+            <h1 className='w-fit mx-auto text-4xl text-white'>Who&apos;s Watching?</h1>
             <div className='flex mt-5 gap-5'>
                 <Link href="/home" className='cursor-pointer'>
                     <div className='h-40 w-40 rounded-2xl bg-white cursor-pointer '>

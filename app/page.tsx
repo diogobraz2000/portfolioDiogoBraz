@@ -29,7 +29,7 @@ export default function Home() {
         gsap.fromTo(".logo",{scale:1},{scale:1.5,duration:2});
       }
       
-   },[clicked])
+   },[clicked,isFirstRender])
    useEffect(()=>{
     gsap.fromTo(".start",{opacity:0},{opacity:1,duration:2,yoyo:true,repeat:-1});
  },[])

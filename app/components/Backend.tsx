@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect } from 'react'
-import { FaCss3, FaHtml5, FaJava, FaJs, FaNodeJs, FaPhp, FaPython, FaReact } from 'react-icons/fa6'
-import { SiTypescript } from 'react-icons/si'
+import {FaJava, FaNodeJs, FaPhp, FaPython } from 'react-icons/fa6'
+
 import gsap from 'gsap'
 function Backend() {
     useEffect(()=>{
@@ -30,12 +30,12 @@ function Backend() {
                         <div className=' h-48  bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 three1 opacity-0'>
                             <FaNodeJs className='text-red-600 font-bold text-4xl w-fit mx-auto '></FaNodeJs>
                             <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>Node.js</h1>
-                            <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit'>Backend Runtime</h2>
+                            <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Backend Runtime</h2>
                         </div>
                         <div className=' h-48  bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 four1 opacity-0'>
                             <FaPhp className='text-red-600 font-bold text-4xl w-fit mx-auto '></FaPhp>
                             <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>PHP</h1>
-                            <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit'>Backend Language</h2>
+                            <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Backend Language</h2>
                         </div>
                         
                     </div>

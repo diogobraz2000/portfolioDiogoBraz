@@ -38,7 +38,7 @@ function Cloud() {
                 <div className=' h-48  bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 four4 opacity-0'>
                     <FaDocker className='text-red-600 font-bold text-4xl w-fit mx-auto '></FaDocker>
                     <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>Docker</h1>
-                    <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit'>Containerization</h2>
+                    <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Containerization</h2>
                 </div>
                 <div className=' h-48  bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 five4 opacity-0'>
                     <SiKubernetes className='text-red-600 font-bold text-4xl w-fit mx-auto '></SiKubernetes>
@@ -48,12 +48,12 @@ function Cloud() {
                 <div className=' h-48  bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 six4 opacity-0'>
                     <FaAws className='text-red-600 font-bold text-4xl w-fit mx-auto '></FaAws>
                     <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>AWS</h1>
-                    <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit'>Cloud Platform</h2>
+                    <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Cloud Platform</h2>
                 </div>
                 <div className=' h-48  bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 seven4 opacity-0'>
                     <SiGooglecloud className='text-red-600 font-bold text-4xl w-fit mx-auto '></SiGooglecloud>
                     <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>Google Cloud Platform</h1>
-                    <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit'>Cloud Platform</h2>
+                    <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Cloud Platform</h2>
                 </div>
             </div>
         </div>
