@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` antialiased bg-black `}
+        className={` antialiased bg-[#292929] scroll-smooth overflow-x-hidden`}
       >
         <AnimatedCursor
           innerSize={8}

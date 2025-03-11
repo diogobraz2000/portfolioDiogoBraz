@@ -30,13 +30,13 @@ function NavBar() {
   return (
     <div className='flex fixed top-0 w-full  z-50'>
         <ul className={`flex gap-5 text-white w-full p-5 duration-700 ${scrolled? "bg-black" :"bg-gradient-to-b from-black to-black/0 "}`}>
-            <li><Link href="/"><Image src="/logo.png" width={100} height={100} alt='logo'></Image></Link></li>
-            <li><Link href="/home">Home</Link></li>
-            <li><Link href="/professional">Professional</Link></li>
-            <li><Link href="/education">Education</Link></li>
-            <li><Link href="/skills">Skills</Link></li>
-            <li><Link href="/projects">Projects</Link></li>
-            <li><Link href="">Hire Me</Link></li>
+            <li className='max-md:mx-auto'><Link href="/"><Image src="/logo.png" width={100} height={100} alt='logo' ></Image></Link></li>
+            <li className='max-md:hidden'><Link href="/home">Home</Link></li>
+            <li className='max-md:hidden'><Link href="/professional">Professional</Link></li>
+            <li className='max-md:hidden'><Link href="/education">Education</Link></li>
+            <li className='max-md:hidden'><Link href="/skills">Skills</Link></li>
+            <li className='max-md:hidden'><Link href="/projects">Projects</Link></li>
+            <li className='max-md:hidden'><Link href="/contacts">Hire Me</Link></li>
         </ul>
     </div>
   )

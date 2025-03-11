@@ -37,7 +37,7 @@ const TimelineEducation: React.FC = () => {
           className="vertical-timeline-element--work text-red-600 shadow-red-600"
           iconClassName="bg-black"
           
-          date="2023 - 2023"
+          date="2019 - 2024"
           icon={<FaSailboat/>}
         >
             <Image src="/Novologo.png" width={100} height={100} alt="Simens Sa." className="rounded-full w-24 h-24 border-2 border-black p-1"></Image>

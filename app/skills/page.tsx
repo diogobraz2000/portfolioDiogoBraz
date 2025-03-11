@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Frontend from '../components/Frontend'
 import Backend from '../components/Backend'
