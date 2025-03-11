@@ -17,7 +17,7 @@ function Home() {
             <div>
                 <Carousel className='w-3/4 mx-auto mt-10'>
                     <CarouselContent className='w-full mx-auto p-7 '>
-                        <CarouselItem className='basis-1/3 max-md:basis-full'>
+                        <CarouselItem className='basis-1/3 max-xl:basis-full'>
                             <div className='bg-gray-950 shadow-red-500 border border-slate-500 shadow-md text-white h-96 p-5 rounded-2xl hover:shadow-lg duration-500 hover:scale-105'>
                                 <Image src="/Harvard.png" width={150} height={150} alt='logo' className='border rounded-full w-28 h-28 bg-white'></Image>
                                 <h1 className='mt-2 text-2xl font-bold'>Introduction to Artificial Intelligence with Python</h1>
@@ -37,7 +37,7 @@ function Home() {
                             </div>
                         </CarouselItem>
                         
-                        <CarouselItem className='basis-1/3 max-md:basis-full'>
+                        <CarouselItem className='basis-1/3 max-xl:basis-full'>
                             <div className='bg-gray-950 shadow-red-500 border border-slate-500 shadow-md text-white h-96 p-5 rounded-2xl hover:shadow-lg  duration-500 hover:scale-105'>
                                 <Image src="/Harvard.png" width={150} height={150} alt='logo' className='border rounded-full w-28 h-28 bg-white'></Image>
                                 <h1 className='mt-2 text-2xl font-bold'>Web Programming with Python and JavaScript </h1>
@@ -71,7 +71,7 @@ function Home() {
                                 </div>
                             </div>
                         </CarouselItem>
-                        <CarouselItem className='basis-1/3 max-md:basis-full'>
+                        <CarouselItem className='basis-1/3 max-xl:basis-full'>
                             <div className='bg-gray-950 shadow-red-500 border border-slate-500 shadow-md text-white h-96 p-5 rounded-2xl hover:shadow-lg duration-500 hover:scale-105'>
                                 <Image src="/udemy-logo.png" width={150} height={150} alt='logo' className='border rounded-full w-28 h-28 bg-white'></Image>
                                 <h1 className='mt-2 text-2xl font-bold'>Microservices with NodeJS and React</h1>
@@ -98,7 +98,7 @@ function Home() {
                                 </div>
                             </div>
                         </CarouselItem>
-                        <CarouselItem className='basis-1/3 max-md:basis-full'>
+                        <CarouselItem className='basis-1/3 max-xl:basis-full'>
                             <div className='bg-gray-950 shadow-red-500 border border-slate-500 shadow-md text-white h-96 p-5 rounded-2xl hover:shadow-lg  duration-500 hover:scale-105'>
                                 <Image src="/CodeAC.png" width={150} height={150} alt='logo' className='border rounded-full w-28 h-28 bg-white'></Image>
                                 <h1 className='mt-2 text-2xl font-bold'>Full-Stack Carreer Path</h1>

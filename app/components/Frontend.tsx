@@ -42,8 +42,8 @@ function Frontend() {
                 <div className=' h-56 w-36 bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 five opacity-0'>
                  
                     <SiTypescript className='text-red-600 font-bold text-3xl w-fit mx-auto '></SiTypescript>
-                    <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>React</h1>
-                    <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Frontend Framework</h2>
+                    <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>TypeScript</h1>
+                    <h2 className=' text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Superset of JavaScript</h2>
                 </div>
                 
             </div>
