@@ -21,15 +21,15 @@ function Home() {
             id:1,
             name:"Green Corner House Web App",
             img:"/gch-website.png",
-            description:"A website that permits user to book and check their bookings for a tourism rental property",
+            description:"This project is a fully functional rental guest house website that streamlines the booking process for guests while providing property owners with an easy-to-manage platform. The website offers a seamless experience for booking stays, checking in, and managing reservations with an intuitive and user-friendly interface.",
             tech:["React","NodeJS", "ExpressJS"],
             status:"On Progress"
         },
         {
             id:6,
-            name:"Vehicle Route Engine",
+            name:"Vehicle Route Optimization Engine",
             img:"/vre.webp",
-            description:"An app that plans fleet routes to electrical inspections services",
+            description:"This project is a Vehicle Route Optimization Engine designed to efficiently plan and optimize routes for vehicles in real-time. Whether for logistics, delivery services, ride-sharing, or fleet management, this system provides the best possible routes based on various parameters such as traffic conditions, road restrictions, and delivery priorities.",
             tech:["React","NodeJS", "ExpressJS","Python","FastAPI"],
             status:"On Progress"
         },
