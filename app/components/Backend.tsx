@@ -16,7 +16,7 @@ function Backend() {
   return (
     <div className='relative mt-20 w-full'>
       <h1 className='flex border-b-2 border-red-500 text-white w-fit h-fit mx-auto text-3xl font-bold pb-2'>Backend</h1>
-      <div className='flex flex-wrap justify-center items-center gap-10 w-3/4 max-md:w-full max-md:mx-auto mt-10'>
+      <div className='flex flex-wrap justify-center items-center gap-10 w-3/4 mx-auto mt-10 max-md:w-full max-md:mx-auto'>
         {/* Python */}
         <div className='h-56 w-36 bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 one1 opacity-0'>
           <FaPython className='text-red-600 font-bold text-4xl w-fit mx-auto' />
