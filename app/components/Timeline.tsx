@@ -15,7 +15,8 @@ const Timeline: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work text-red-600 shadow-red-600 "
           iconClassName="bg-black"
-          
+          contentStyle={{ background: '#E0E0E0'}}
+          contentArrowStyle={{ borderRight: '7px solid #DC2626' }}
           date="2023 - Present"
           icon={<FaPen  />}
         >
@@ -37,7 +38,8 @@ const Timeline: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work text-red-600 shadow-red-600"
           iconClassName="bg-black"
-          
+          contentStyle={{ background: '#E0E0E0'}}
+          contentArrowStyle={{ borderRight: '7px solid #DC2626' }}
           date="2023 - 2023"
           icon={<FaSailboat/>}
         >
@@ -61,11 +63,12 @@ const Timeline: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work text-red-600 shadow-red-600"
           iconClassName="bg-black"
-          
+          contentStyle={{ background: '#E0E0E0'}}
+          contentArrowStyle={{ borderRight: '7px solid #DC2626' }}
           date="2022 - 2022"
           icon={<FaCarBattery />}
         >
-            <Image src="/siemens.jpg" width={100} height={100} alt="Simens Sa." className="rounded-full w-24 h-24 border-2 border-black p-2"></Image>
+            <Image src="/siemens.jpg" width={100} height={100} alt="Simens Sa." className="rounded-full w-24 h-24 border-2 border-black "></Image>
             <h3 className="vertical-timeline-element-title text-black font-bold text-2xl mt-5">Summer Intern</h3>
             <h4 className="vertical-timeline-element-subtitle text-black font-semibold text-xl">Siemens SA.</h4>
             <ul className="list-disc ml-10 text-black">

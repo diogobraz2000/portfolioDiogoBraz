@@ -15,7 +15,8 @@ const TimelineEducation: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work text-red-600 shadow-red-600 "
           iconClassName="bg-black"
-          
+          contentStyle={{ background: '#E0E0E0'}}
+          contentArrowStyle={{ borderRight: '7px solid #DC2626' }}
           date="2023 - Present"
           icon={<FaPen  />}
         >
@@ -36,7 +37,8 @@ const TimelineEducation: React.FC = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work text-red-600 shadow-red-600"
           iconClassName="bg-black"
-          
+          contentStyle={{ background: '#E0E0E0'}}
+          contentArrowStyle={{ borderRight: '7px solid #DC2626' }}
           date="2019 - 2024"
           icon={<FaSailboat/>}
         >
