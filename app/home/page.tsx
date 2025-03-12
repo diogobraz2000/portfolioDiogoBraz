@@ -41,8 +41,8 @@ function Home() {
         <div className=' relative mt-32 max-md:mt-32 w-auto'>
             <div className='mt-10 w-full'>
                 <h1 className='text-3xl font-bold text-white ml-5'>Today&apos;s Top Picks</h1>
-                <Carousel className=' flex justify-center items-center gap-5  max-md:w-screenp-5'>
-                    <CarouselContent className=' flex items-center w-screen pl-7 py-5'>
+                <Carousel className=' flex justify-center items-center gap-5  max-md:w-screen '>
+                    <CarouselContent className=' flex items-center w-screen  py-5'>
                         <CarouselItem className='basis-1/6 max-md:basis-1/2 max-lg:basis-1/3 max-xl:basis-1/4'>
                             <div className=' relative w-56 h-56 max-md:w-40 max-md:h-40 bg-black hover:shadow-red-500 hover:shadow-lg duration-500 rounded-lg hover:scale-105 ' onClick={ ()=>{window.location.href='/skills';}}>
                                 <Image src="/skills.avif" width={600} height={600} alt='work Experience' className='w-full h-full rounded-lg opacity-50 '></Image>

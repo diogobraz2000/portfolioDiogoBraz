@@ -8,11 +8,12 @@ function Frontend() {
     useEffect(() => {
         const tl = gsap.timeline();
 
-        tl.fromTo(".five", { opacity: 0, x: "-500vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out", delay: 10 })
-            .fromTo(".four", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
-            .fromTo(".three", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
-            .fromTo(".two", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
-            .fromTo(".one", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+        tl.fromTo(".one", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+            .fromTo(".two", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+            .fromTo(".three", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+            .fromTo(".four", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+            .fromTo(".five", { opacity: 0, x: "500vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out"})
+           
     }, [])
 
     return (

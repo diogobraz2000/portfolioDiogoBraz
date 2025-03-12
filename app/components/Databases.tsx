@@ -7,9 +7,9 @@ function Databases() {
     useEffect(() => {
         const tl = gsap.timeline();
 
-        tl.fromTo(".three2", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out", delay: 10 })
-            .fromTo(".two2", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
-            .fromTo(".one2", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+        tl.fromTo(".one2", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out", delay: 10 })
+            .fromTo(".two2", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+            .fromTo(".three2", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
     }, [])
 
     return (

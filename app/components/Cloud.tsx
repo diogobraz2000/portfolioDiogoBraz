@@ -8,13 +8,13 @@ function Cloud() {
   useEffect(() => {
     const tl = gsap.timeline();
 
-    tl.fromTo(".seven4", { opacity: 0, x: "-500vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out", delay: 20 })
-      .fromTo(".six4", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
-      .fromTo(".five4", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
-      .fromTo(".four4", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
-      .fromTo(".three4", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
-      .fromTo(".two4", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
-      .fromTo(".one4", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+    tl.fromTo(".one4", { opacity: 0, x: "500vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out", delay: 20 })
+      .fromTo(".two4", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+      .fromTo(".three4", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+      .fromTo(".four4", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+      .fromTo(".five4", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+      .fromTo(".six4", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+      .fromTo(".seven4", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
   }, [])
 
   return (

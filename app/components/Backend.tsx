@@ -7,10 +7,10 @@ function Backend() {
   useEffect(() => {
     const tl = gsap.timeline();
 
-    tl.fromTo(".four1", { opacity: 0, x: "-500vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out", delay: 5 })
-      .fromTo(".three1", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
-      .fromTo(".two1", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
-      .fromTo(".one1", { opacity: 0, x: "-150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+    tl.fromTo(".one1", { opacity: 0, x: "500vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out", delay: 5 })
+      .fromTo(".two1", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+      .fromTo(".three1", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+      .fromTo(".four1", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
   }, [])
 
   return (
