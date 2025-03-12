@@ -13,7 +13,7 @@ import ScrollingTechnologies from '../components/Scroll'
 function Home() {
   return (
     <div className='h-screen w-screen'>
-        <div className='absolute top-0 left-0 w-full h-1/2'>
+        <div className='relative max-md:relative md:top-0 md:left-0 w-full max-md:w-fit max-md:mx-auto md:h-1/2 '>
             <video
                 autoPlay
                 loop
@@ -23,9 +23,9 @@ function Home() {
             >
                 <source src="/home-video.mp4" type="video/mp4" />
             </video>
-            <div className='absolute max-md:relative max-md:mt-20 bottom-10 max-md:bottom-0 left-10 text-white max-md:mb-20'>
+            <div className='absolute max-md:relative  max-md:w-fit max-md:mt-20 bottom-10 max-md:bottom-0 left-10 max-md:left-0 px-5 text-white max-md:mb-20'>
                 <h1 className='text-4xl max-md:text-xl font-bold'>Diogo Braz - Full-Stack Developer</h1>
-                <p className='w-1/2 max-md:w-3/4 text-sm'>I&apos;m a front-end developer with a background in full-stack development, artificial intelligence, and robotics. Currently completing my Master&apos;s in Robotics and Digital Systems at NOVA School of Science and Technology, I work on projects that blend software engineering with intelligent systems. My experience includes developing web applications, optimizing AI-driven solutions, and leading technical teams. I&apos;ve worked on projects ranging from autonomous navigation systems to electric vehicle prototypes, always focusing on practical, scalable solutions. My goal is to create software that is both efficient and thoughtfully designed.</p>
+                <p className='w-1/2 max-md:w-full text-sm'>I&apos;m a front-end developer with a background in full-stack development, artificial intelligence, and robotics. Currently completing my Master&apos;s in Robotics and Digital Systems at NOVA School of Science and Technology, I work on projects that blend software engineering with intelligent systems. My experience includes developing web applications, optimizing AI-driven solutions, and leading technical teams. I&apos;ve worked on projects ranging from autonomous navigation systems to electric vehicle prototypes, always focusing on practical, scalable solutions. My goal is to create software that is both efficient and thoughtfully designed.</p>
                 <div className='flex gap-2'>
                     <a className='flex p-2 bg-white text-black rounded-sm mt-2 gap-4 px-5' href="/cv.pdf">
                         <IoMdPlay className='my-auto text-3xl'></IoMdPlay>
@@ -38,7 +38,7 @@ function Home() {
                 </div>          
             </div>
         </div>
-        <div className=' relative max-md:mt-30 top-1/2 w-full'>
+        <div className=' relative mt-32 max-md:mt-32 w-auto'>
             <div className='mt-10 w-full'>
                 <h1 className='text-3xl font-bold text-white ml-5'>Today&apos;s Top Picks</h1>
                 <Carousel className=' flex justify-center items-center gap-5  max-md:w-screenp-5'>

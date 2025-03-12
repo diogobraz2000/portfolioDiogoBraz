@@ -22,7 +22,7 @@ function Home() {
                                 <Image src="/Harvard.png" width={150} height={150} alt='logo' className='border rounded-full w-28 h-28 bg-white'></Image>
                                 <h1 className='mt-2 text-2xl font-bold'>Introduction to Artificial Intelligence with Python</h1>
                                 <h2 className='text-large font-semibold'>CS50 Harvard Online</h2>
-                                <div className='flex flex-wrap w-full mt-2 gap-2'>
+                                <div className='flex flex-wrap w-full mt-2 gap-2 max-md:hidden'>
                                     <div className='rounded-xl flex gap-1 bg-black w-fit px-2 hover:scale-105 hover:bg-red-600 hover:text-black hover:shadow-md hover:shadow-red-600 duration-500 text-white'>
                                         <FaPython className='my-auto '></FaPython>
                                         <h1>Pyhton</h1>
@@ -42,7 +42,7 @@ function Home() {
                                 <Image src="/Harvard.png" width={150} height={150} alt='logo' className='border rounded-full w-28 h-28 bg-white'></Image>
                                 <h1 className='mt-2 text-2xl font-bold'>Web Programming with Python and JavaScript </h1>
                                 <h2 className='text-large font-semibold'>CS50 Harvard Online</h2>
-                                <div className='flex flex-wrap w-full mt-2 gap-2'>
+                                <div className='flex flex-wrap w-full mt-2 gap-2 max-md:hidden'>
                                     <div className='rounded-xl flex gap-1 bg-black w-fit px-2 text-white  hover:scale-105 hover:bg-red-600 hover:text-black hover:shadow-md hover:shadow-red-600 duration-500'>
                                         <FaHtml5 className='my-auto '></FaHtml5>
                                         <h1>HTML</h1>
@@ -76,7 +76,7 @@ function Home() {
                                 <Image src="/udemy-logo.png" width={150} height={150} alt='logo' className='border rounded-full w-28 h-28 bg-white'></Image>
                                 <h1 className='mt-2 text-2xl font-bold'>Microservices with NodeJS and React</h1>
                                 <h2 className='text-large font-semibold'>Udemy - Stephen Grider</h2>
-                                <div className='flex flex-wrap w-full mt-2 gap-2'>
+                                <div className='flex flex-wrap w-full mt-2 gap-2 max-md:hidden'>
                                     <div className='rounded-xl flex gap-1 bg-black w-fit px-2 text-white hover:scale-105 hover:bg-red-600 hover:text-black hover:shadow-md hover:shadow-red-600 duration-500'>
                                         <FaDocker className='my-auto '></FaDocker>
                                         <h1>Docker</h1>
@@ -98,12 +98,12 @@ function Home() {
                                 </div>
                             </div>
                         </CarouselItem>
-                        <CarouselItem className='basis-1/3 max-xl:basis-full'>
-                            <div className='bg-gray-950 shadow-red-500 border border-slate-500 shadow-md text-white h-96 p-5 rounded-2xl hover:shadow-lg  duration-500 hover:scale-105'>
+                        <CarouselItem className='basis-1/3 max-xl:basis-full '>
+                            <div className='bg-gray-950 shadow-red-500 border border-slate-500 shadow-md text-white h-96 p-5 rounded-2xl hover:shadow-lg  duration-500 hover:scale-105 max-md:h-xl'>
                                 <Image src="/CodeAC.png" width={150} height={150} alt='logo' className='border rounded-full w-28 h-28 bg-white'></Image>
                                 <h1 className='mt-2 text-2xl font-bold'>Full-Stack Carreer Path</h1>
                                 <h2 className='text-large font-semibold'>Code Academy</h2>
-                                <div className='flex flex-wrap w-full mt-2 gap-2'>
+                                <div className='flex flex-wrap w-full mt-2 gap-2 max-md:hidden'>
                                     <div className='rounded-xl flex gap-1 bg-black w-fit px-2 text-white hover:scale-105 hover:bg-red-600 hover:text-black hover:shadow-md hover:shadow-red-600 duration-500'>
                                         <FaReact className='my-auto '></FaReact>
                                         <h1>React</h1>

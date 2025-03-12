@@ -11,12 +11,12 @@ function Home() {
                 <Image src="/profilepic.jpeg" width={1000} height={1000} alt='profile' className='w-48 h-48 max-md:w-20 max-md:h-20 rounded-full my-auto'></Image>
                 <div className='mx-auto h-fit p-2'>
                     <h1 className='text-4xl text-red-600 max-md:text-2xl'>Diogo Miguel Braz</h1>
-                    <div className='flex gap-2'>
-                        <Link href="https://github.com/diogobraz2000" className='w-fit px-4 flex gap-2 bg-purple-500 rounded-lg mt-4 hover:scale-105 hover:shadow-md duration-500 hover:shadow-zinc-700'>
+                    <div className='flex gap-2 max-md:flex-col max-md:justify-center'>
+                        <Link href="https://github.com/diogobraz2000" className='w-fit px-4 flex gap-2 max-md:mx-auto bg-purple-500 rounded-lg mt-4 hover:scale-105 hover:shadow-md duration-500 hover:shadow-zinc-700'>
                             <FaGithub className='text-white text-2xl my-auto '></FaGithub>
                             <h1 className='text-xl text-white'>GitHub</h1>
                         </Link>
-                        <Link href="https://www.linkedin.com/in/diogo-miguel-braz-8339271a0/" className='w-fit px-4 flex gap-2 bg-blue-500 rounded-lg mt-4 hover:scale-105 hover:shadow-md duration-500 hover:shadow-zinc-700'>
+                        <Link href="https://www.linkedin.com/in/diogo-miguel-braz-8339271a0/" className='w-fit px-4 max-md:mx-auto flex gap-2 bg-blue-500 rounded-lg mt-4 hover:scale-105 hover:shadow-md duration-500 hover:shadow-zinc-700'>
                             <FaLinkedin className='text-white text-2xl my-auto '></FaLinkedin>
                             <h1 className='text-xl text-white'>LinkedIn</h1>
                         </Link>

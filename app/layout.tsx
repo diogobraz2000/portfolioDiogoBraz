@@ -5,6 +5,7 @@ import "./globals.css";
 import NavBar from "./components/NavBar";
 import AnimatedCursor from "react-animated-cursor";
 import { MantineProvider } from '@mantine/core';
+import Head from "next/head";
 
 
 
@@ -18,6 +19,9 @@ export default function RootLayout({
   const pathname = usePathname(); 
   return (
     <html lang="en">
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <body
         className={` antialiased bg-[#292929] scroll-smooth overflow-x-hidden`}
       >
