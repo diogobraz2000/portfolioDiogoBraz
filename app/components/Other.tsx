@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect } from 'react'
-import { SiNumpy, SiOpencv, SiPandas, SiPytorch } from 'react-icons/si'
+import {SiOpencv, SiPandas, SiPytorch } from 'react-icons/si'
 import gsap from 'gsap';
 function Other() {
     useEffect(()=>{
