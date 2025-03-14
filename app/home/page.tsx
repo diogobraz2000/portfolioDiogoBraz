@@ -27,11 +27,11 @@ function Home() {
                 <h1 className='text-4xl max-md:text-xl font-bold'>Diogo Braz - Full-Stack Developer</h1>
                 <p className='w-1/2 max-md:w-full text-sm'>I&apos;m a front-end developer with a background in full-stack development, artificial intelligence, and robotics. Currently completing my Master&apos;s in Robotics and Digital Systems at NOVA School of Science and Technology, I work on projects that blend software engineering with intelligent systems. My experience includes developing web applications, optimizing AI-driven solutions, and leading technical teams. I&apos;ve worked on projects ranging from autonomous navigation systems to electric vehicle prototypes, always focusing on practical, scalable solutions. My goal is to create software that is both efficient and thoughtfully designed.</p>
                 <div className='flex gap-2'>
-                    <a className='flex p-2 bg-white text-black rounded-sm mt-2 gap-4 px-5' href="/DiogoBrazResume.pdf">
+                    <a className='flex p-2 bg-white text-black rounded-sm mt-2 gap-4 px-5' href="/DiogoBrazResume.pdf" target="_blank">
                         <IoMdPlay className='my-auto text-3xl'></IoMdPlay>
                         <h1 className='font-bold text-lg my-auto'>Resume</h1>
                     </a>
-                    <a className='flex p-2 bg-[#6D6D6EB3] text-white rounded-sm mt-2 gap-4 px-5' href='https://www.linkedin.com/in/diogo-miguel-braz-8339271a0/'>
+                    <a className='flex p-2 bg-[#6D6D6EB3] text-white rounded-sm mt-2 gap-4 px-5' href='https://www.linkedin.com/in/diogo-miguel-braz-8339271a0/' target="_blank"> 
                         <IoIosInformationCircleOutline  className='my-auto text-3xl'/>
                         <h1 className='font-bold text-lg my-auto'>Linkedin</h1>
                     </a>   
