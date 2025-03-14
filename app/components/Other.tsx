@@ -34,12 +34,7 @@ function Other() {
                     <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>Pandas</h1>
                     <h2 className='text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Data Analysis and Manipulation Library</h2>
                 </div>
-                {/* NumPy */}
-                <div className='h-56 w-36 bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 four3 opacity-0 '>
-                    <SiNumpy className='text-red-600 font-bold text-4xl w-fit mx-auto ' />
-                    <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>NumPy</h1>
-                    <h2 className='text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Python Library</h2>
-                </div>
+              
                 
             </div>
         </div>
