@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import AnimatedCursor from "react-animated-cursor";
 import { MantineProvider } from '@mantine/core';
 import Head from "next/head";
+import Script from "next/script";
 
 export default function RootLayout({
   children,
@@ -44,20 +45,18 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script
+        <Script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=G-6E85Q1SJKHD`}
-          ></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
+          ></Script>
+          <Script id="google-analytics">
+            {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', 'G-6E85Q1SJKHD');
-              `,
-            }}
-          ></script>
+            `}
+          </Script>
       </Head>
       <body className={`antialiased bg-[#292929] scroll-smooth overflow-x-hidden`}>
         {/* Render AnimatedCursor only if the screen width is above 768px (not mobile or tablet) */}
