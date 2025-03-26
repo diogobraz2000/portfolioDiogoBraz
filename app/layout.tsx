@@ -1,5 +1,5 @@
 "use client";
-
+import { Analytics } from "@vercel/analytics/react"
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react"; // Import useState and useEffect
 import "./globals.css";
@@ -81,6 +81,7 @@ export default function RootLayout({
         <MantineProvider>
           {children}
         </MantineProvider>
+        <Analytics />
       </body>
     </html>
   );
