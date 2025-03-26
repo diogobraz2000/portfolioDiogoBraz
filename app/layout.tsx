@@ -44,6 +44,20 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-6E85Q1SJKHD`}
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'YOUR_TRACKING_ID');
+              `,
+            }}
+          ></script>
       </Head>
       <body className={`antialiased bg-[#292929] scroll-smooth overflow-x-hidden`}>
         {/* Render AnimatedCursor only if the screen width is above 768px (not mobile or tablet) */}
