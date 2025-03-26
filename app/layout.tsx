@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar";
 import AnimatedCursor from "react-animated-cursor";
 import { MantineProvider } from '@mantine/core';
 import Head from "next/head";
-import Script from "next/script";
+
 
 export default function RootLayout({
   children,
