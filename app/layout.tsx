@@ -45,6 +45,8 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title> Diogo Braz Portfolio</title>
+        <meta name="description" content="Diogo Braz Portfolio" />
       
       </Head>
       <body className={`antialiased bg-[#292929] scroll-smooth overflow-x-hidden`}>
