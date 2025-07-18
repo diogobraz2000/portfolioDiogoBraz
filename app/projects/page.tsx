@@ -23,7 +23,7 @@ function Home() {
             img:"/gch-website.png",
             description:"This project is a fully functional rental guest house website that streamlines the booking process for guests while providing property owners with an easy-to-manage platform. The website offers a seamless experience for booking stays, checking in, and managing reservations with an intuitive and user-friendly interface.",
             tech:["React","NodeJS", "ExpressJS"],
-            status:"On Progress"
+            status:"In Progress"
         },
         {
             id:6,
@@ -31,7 +31,7 @@ function Home() {
             img:"/vre.webp",
             description:"This project is a Vehicle Route Optimization Engine designed to efficiently plan and optimize routes for vehicles in real-time. Whether for logistics, delivery services, ride-sharing, or fleet management, this system provides the best possible routes based on various parameters such as traffic conditions, road restrictions, and delivery priorities.",
             tech:["React","NodeJS", "ExpressJS","Python","FastAPI"],
-            status:"On Progress"
+            status:"In Progress"
         },
         {
             id:2,
