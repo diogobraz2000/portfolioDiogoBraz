@@ -18,6 +18,46 @@ const Timeline: React.FC = () => {
           iconClassName="bg-black"
           contentStyle={{ background: '#E0E0E0'}}
           contentArrowStyle={{ borderRight: '7px solid #DC2626' }}
+          date="Aug 2025 - Present"
+          icon={<FaPen  />}
+        >
+            <Image src="/bitsight.png" width={100} height={100} alt="Simens Sa." className="rounded-full w-24 h-24 border-2 border-black"></Image>
+            <h3 className="vertical-timeline-element-title text-black font-bold text-2xl mt-5">Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle text-black font-semibold text-xl">Bitsight</h4>
+            <ul className="list-disc ml-10 text-black">
+                <li>Developed and deployed responsive web applications using React (front-end) and Django and Fast-API (back-end)</li>
+                <li>Utilized SQL databases (e.g., PostgreSQL, MySQL) to manage and manipulate large datasets, optimizing queries and ensuring fast retrieval times.</li>
+                
+            </ul>
+            <div className="grid grid-cols-4 bg-blue-400">
+                
+            </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work text-red-600 shadow-red-600 "
+          iconClassName="bg-black"
+          contentStyle={{ background: '#E0E0E0'}}
+          contentArrowStyle={{ borderRight: '7px solid #DC2626' }}
+          date="May 2025 - Aug 2025"
+          icon={<FaPen  />}
+        >
+            <Image src="/bitsight.png" width={100} height={100} alt="Simens Sa." className="rounded-full w-24 h-24 border-2 border-black"></Image>
+            <h3 className="vertical-timeline-element-title text-black font-bold text-2xl mt-5">Software Engineer Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle text-black font-semibold text-xl">Bitsight</h4>
+            <ul className="list-disc ml-10 text-black">
+                <li>Developed and deployed responsive web applications using React (front-end) and Django and Fast-API (back-end)</li>
+                <li>Utilized SQL databases (e.g., PostgreSQL, MySQL) to manage and manipulate large datasets, optimizing queries and ensuring fast retrieval times.</li>
+                
+            </ul>
+            <div className="grid grid-cols-4 bg-blue-400">
+                
+            </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work text-red-600 shadow-red-600 "
+          iconClassName="bg-black"
+          contentStyle={{ background: '#E0E0E0'}}
+          contentArrowStyle={{ borderRight: '7px solid #DC2626' }}
           date="2023 - Present"
           icon={<FaPen  />}
         >

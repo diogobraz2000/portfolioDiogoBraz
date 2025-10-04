@@ -1,6 +1,8 @@
 'use client'
 import React, { useEffect } from 'react'
 import { FaJava, FaNodeJs, FaPhp, FaPython } from 'react-icons/fa6'
+import { DiDjango } from "react-icons/di";
+import { SiFastapi } from "react-icons/si";
 import gsap from 'gsap'
 
 function Backend() {
@@ -11,6 +13,8 @@ function Backend() {
       .fromTo(".two1", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
       .fromTo(".three1", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
       .fromTo(".four1", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+      .fromTo(".five1", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
+      .fromTo(".six1", { opacity: 0, x: "150vw" }, { opacity: 1, x: 0, duration: 1, ease: "power4.out" })
   }, [])
 
   return (
@@ -23,20 +27,32 @@ function Backend() {
           <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>Python</h1>
           <h2 className='text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Object-oriented Programming Language</h2>
         </div>
-        {/* Java */}
+        {/* Django */}
         <div className='h-56 w-36 bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 two1 opacity-0'>
+          <DiDjango className='text-red-600 font-bold text-4xl w-fit mx-auto' />
+          <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>Django</h1>
+          <h2 className='text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>High Level Python Web Framework</h2>
+        </div>
+        {/* FastAPI */}
+        <div className='h-56 w-36 bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 three1 opacity-0'>
+          <SiFastapi className='text-red-600 font-bold text-4xl w-fit mx-auto' />
+          <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>FastAPI</h1>
+          <h2 className='text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>High Performance Python Framework</h2>
+        </div>
+        {/* Java */}
+        <div className='h-56 w-36 bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 four1 opacity-0'>
           <FaJava className='text-red-600 font-bold text-4xl w-fit mx-auto' />
           <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>Java</h1>
           <h2 className='text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Object-oriented Programming Language</h2>
         </div>
         {/* Node.js */}
-        <div className='h-56 w-36 bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 three1 opacity-0'>
+        <div className='h-56 w-36 bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 five1 opacity-0'>
           <FaNodeJs className='text-red-600 font-bold text-4xl w-fit mx-auto' />
           <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>Node.js</h1>
           <h2 className='text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Backend Runtime</h2>
         </div>
         {/* PHP */}
-        <div className='h-56 w-36 bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 four1 opacity-0'>
+        <div className='h-56 w-36 bg-zinc-900 hover:shadow-lg hover:shadow-red-600 duration-500 hover:scale-105 rounded-lg p-5 six1 opacity-0'>
           <FaPhp className='text-red-600 font-bold text-4xl w-fit mx-auto' />
           <h1 className='font-bold text-white text-xl mt-5 mx-auto w-fit'>PHP</h1>
           <h2 className='text-slate-200 text-sm mt-5 mx-auto w-fit text-center'>Backend Language</h2>
